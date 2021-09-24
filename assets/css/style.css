@@ -314,7 +314,11 @@ body{
 
           height: 350px;
           width: 500px;
-
+           
+          /*add new*/            
+          padding-top: 20px;
+          margin-top: 20px;
+            
           padding-bottom: 20px;
           margin-bottom: 20px;
           max-height: 400px;
