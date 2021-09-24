@@ -399,7 +399,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "52.5200","lng":"13.4050"},
         "content": "Berlin",
         "Hol_type": "tour",
-        "info": "Berlin city capital of Germany, large city, with famous landmarks, and underground dance culture", //will need to be an array - Need different info each holiday type
+        "info": "Berlin city capital of Germany, large city, with famous landmarks and dance culture", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","Lufthansa","British Airways"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/berlin.jpg"
