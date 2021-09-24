@@ -263,7 +263,7 @@ window.onresize = reportWindowSize;
             "coords": { "lat": "42.506317","lng":"1.521835"},
             "content": "Andorra",
             "Hol_type": "ski",
-            "info": "Andorra is a budget skiing region for young adults.",
+            "info": "Andorra is a budget skiing resort.",
             "airlines": ["Air France","Lufthansa","RyanAir"],
             "pic" : "assets/images/andorra2.jpg"
           }
@@ -273,7 +273,7 @@ window.onresize = reportWindowSize;
            "coords": { "lat": "47.5162","lng":"14.5501"},
            "content": "Austria",
            "Hol_type": "ski",
-           "info": "Austria is a popular skiing region for families and expert skier",
+           "info": "Austria is a popular skiing region for families.",
            "airlines": ["Lauda Air","Lufthansa","RyanAir"],
            "pic" : "assets/images/austria1.jpg"
          }
