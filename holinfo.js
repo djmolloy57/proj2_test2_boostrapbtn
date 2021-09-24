@@ -448,7 +448,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "41.9028","lng":"12.4964"},
         "content": "Rome",
         "Hol_type": "tour",
-        "info": "Rome city capital of Italy,Tiber river runs through it, large city, with famous landmarks and restaurants", //will need to be an array - Need different info each holiday type
+        "info": "Rome city capital of Italy,Tiber river runs through it, large city, with famous landmarks.", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","Air Italia","British Airways, RyanAir"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/rome.jpg"
