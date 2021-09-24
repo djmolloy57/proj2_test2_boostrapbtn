@@ -1,7 +1,7 @@
 /*added 12:13 12th Sept on this evemt to ensure country divs section are not showing when site is loaded  */
  window.addEventListener("load", function(){
   // ....
-     alert("Site has loaded!!");
+     //alert("Site has loaded!!");
      var country_divs = document.getElementById('hol_display');
      var div_display_state = getComputedStyle(country_divs).display;
 
@@ -17,7 +17,7 @@
 function reportWindowSize(){
     // on resizing window if in mobile view and generated maps and change to non mobilr view it wont display mobile maps
 
-    alert("Window Resizing");
+    //alert("Window Resizing");
     //$(window).on('resize', function(e) {
 
     let query = window.matchMedia("(min-width: 601px)");
