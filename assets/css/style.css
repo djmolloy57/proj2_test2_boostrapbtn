@@ -59,8 +59,11 @@ body{
     width: 400px;
     display: block;
   }*/
-
-
+  
+  #booking_form {
+     margin-top: 10px;
+     padding-top: 10px; 
+  }
 
   /* iphone 5 Landscape  added new*/
   @media only screen
