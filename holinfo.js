@@ -436,7 +436,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "48.8566","lng":"2.3522"},
         "content": "Paris",
         "Hol_type": "tour",
-        "info": "Paris city capital of France,Saine river runs through it, large city, with famous landmarks and restaurants", //will need to be an array - Need different info each holiday type
+        "info": "Paris city capital of France,Saine river runs through it, large city, with famous landmarks.", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","Air France","British Airways, EasyJet"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/paris.jpg"
