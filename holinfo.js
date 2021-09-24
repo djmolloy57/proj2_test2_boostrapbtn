@@ -263,7 +263,7 @@ window.onresize = reportWindowSize;
             "coords": { "lat": "42.506317","lng":"1.521835"},
             "content": "Andorra",
             "Hol_type": "ski",
-            "info": "Andorra is a budget skiing region for young adults.There is no direct flights from Ireland.",
+            "info": "Andorra is a budget skiing region for young adults.",
             "airlines": ["Air France","Lufthansa","RyanAir"],
             "pic" : "assets/images/andorra2.jpg"
           }
@@ -273,7 +273,7 @@ window.onresize = reportWindowSize;
            "coords": { "lat": "47.5162","lng":"14.5501"},
            "content": "Austria",
            "Hol_type": "ski",
-           "info": "Austria is a popular skiing region for families",
+           "info": "Austria is a popular skiing region for families and expert skier",
            "airlines": ["Lauda Air","Lufthansa","RyanAir"],
            "pic" : "assets/images/austria1.jpg"
          }
@@ -283,7 +283,7 @@ window.onresize = reportWindowSize;
             "coords": { "lat": "46.2276","lng":"2.2137"},
             "content": "France",
             "Hol_type": "ski",
-            "info": "France has popular skiing resorts with major town and cities within easy reach",
+            "info": "France has popular skiing resorts with major towns within easy reach",
             "airlines": ["Aer Lingus","Air France","RyanAir"],
             "pic" : "assets/images/france1.jpg"
         }
@@ -294,7 +294,7 @@ window.onresize = reportWindowSize;
             "coords": { "lat": "41.8719","lng":"12.5674"},
             "content": "Italy",
             "Hol_type": "ski",
-            "info": "Italy has popular skiing resorts in Northern Italy bordering France,Switzerland and Austria",
+            "info": "Italy has popular skiing resorts in Northern Italy near its borders",
             "airlines": ["Aer Lingus","Air Italia","British Airways"],
             "pic" : "assets/images/italy1.jpg"
           }
@@ -412,7 +412,7 @@ window.onresize = reportWindowSize;
       "coords": { "lat": "53.33306","lng":"6.24889"},
       "content": "Dublin",
       "Hol_type": "tour",
-      "info": "Dublin city capital of Ireland, river liffey runs through it, friendy city, with famous pubs,hotels and restaurants", //will need to be an array - Need different info each holiday type
+      "info": "Dublin city capital of Ireland, river liffey runs through it, friendy city, with famous pubs.", //will need to be an array - Need different info each holiday type
       "airlines": ["Aer Lingus","RyanAir","British Airways"],
       "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
       "pic" : "assets/images/dublin1.jpg"
@@ -424,7 +424,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "51.5074","lng":"0.1278"},
         "content": "London",
         "Hol_type": "tour",
-        "info": "London city capital of England, Thames river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
+        "info": "London city capital of England, Thames river runs through it, large city, with famous landmarks.", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","RyanAir","British Airways, EasyJet"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/london.jpg"
@@ -436,7 +436,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "48.8566","lng":"2.3522"},
         "content": "Paris",
         "Hol_type": "tour",
-        "info": "Paris city capital of France,Saine river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
+        "info": "Paris city capital of France,Saine river runs through it, large city, with famous landmarks and restaurants", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","Air France","British Airways, EasyJet"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/paris.jpg"
@@ -448,7 +448,7 @@ window.onresize = reportWindowSize;
         "coords": { "lat": "41.9028","lng":"12.4964"},
         "content": "Rome",
         "Hol_type": "tour",
-        "info": "Rome city capital of Italy,Tiber river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
+        "info": "Rome city capital of Italy,Tiber river runs through it, large city, with famous landmarks and restaurants", //will need to be an array - Need different info each holiday type
         "airlines": ["Aer Lingus","Air Italia","British Airways, RyanAir"],
         "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
         "pic" : "assets/images/rome.jpg"
