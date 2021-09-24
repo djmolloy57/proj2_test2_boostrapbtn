@@ -283,7 +283,7 @@ window.onresize = reportWindowSize;
             "coords": { "lat": "46.2276","lng":"2.2137"},
             "content": "France",
             "Hol_type": "ski",
-            "info": "France has popular skiing resorts with major towns within easy reach",
+            "info": "France has popular skiing resorts near major towns.",
             "airlines": ["Aer Lingus","Air France","RyanAir"],
             "pic" : "assets/images/france1.jpg"
         }
@@ -331,7 +331,7 @@ window.onresize = reportWindowSize;
           "coords": { "lat": "38.7223","lng":"9.1393"},
           "content": "Portugal",
           "Hol_type": "beach", //In latter version this will need to be an array to cover the other holiday types for Switzerland
-          "info": "Portual has many resorts along its beautiful coast near the famous city Lisbon", //will need to be an array - Need different info each holiday type
+          "info": "Portual has many resorts along its beautiful coast.", //will need to be an array - Need different info each holiday type
           "airlines": ["Aer Lingus","Tap Air","British Airways"],
           "loc_radius" : "240000", //100miles
           "pic" : "assets/images/portugal.jpg"  //will need to be an array
@@ -345,7 +345,7 @@ window.onresize = reportWindowSize;
           "coords": { "lat": "43.7102","lng":"7.2620"},
           "content": "Southern France",
           "Hol_type": "beach", 
-          "info": "Southern France has many exclusive resorts for the refined traveler",
+          "info": "Southern France has many exclusive resorts.",
           "airlines": ["Aer Lingus","Air France","British Airways"],
           "loc_radius" : "240000", //100miles
           "pic" : "assets/images/southern_france.jpg"  //will need to be an array
