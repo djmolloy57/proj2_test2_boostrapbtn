@@ -317,7 +317,7 @@ window.onresize = reportWindowSize;
           "coords": { "lat": "36.7212","lng":"4.4217"},
           "content": "South Spain",
           "Hol_type": "beach", //In latter version this will need to be an array to cover the other holiday types for Switzerland
-          "info": "South Spain has many resorts for budget holidays", //will need to be an array - Need different info each holiday type
+          "info": "South Spain has many budget resorts.", //will need to be an array - Need different info each holiday type
           "airlines": ["Aer Lingus","Iberia","RyanAir"],
           "loc_radius" : "240000", //100miles
           "pic" : "assets/images/southern_spain.jpg"  //will need to be an array
