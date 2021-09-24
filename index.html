@@ -1,0 +1,176 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Ideal European Holiday</title>
+  </head>
+  <body>
+    <div id="hero">
+     <nav>
+        <h2>EUROHOL</h2>
+        <div>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="Booking-history.html">Booking History</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row hero-content pt-lg pb-lg-2 pt-2">
+      <div class="col-md-6 col-sm-12">
+        <h1>Find your Ideal European Holiday Lodging Here!</h1>
+        <h4>Find your perfect City Break, Skiing and Beach Holiday lodging here</h4>
+      </div>
+
+    </div>
+    <div class="row hero-content pt-lg pb-lg-0 pt-0">
+      <div class="col-md-6 col-sm-12">
+        <div class="hol_image">
+          <div class="hol_ski">
+            <img src="assets/images/andorra1.jpg" alt="ski picture" width="400" height="200">
+          </div>
+          <div class="hol_beach">
+            <img src="assets/images/croatia.jpg" alt="city picture" width="400" height="200">
+          </div>
+          <div class="hol_city">
+             <img src="assets/images/berlin.jpg" alt="city picture" width="400" height="200">
+          </div>
+
+        </div>
+        <br>
+        <p id="site_info"  class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+      </div>
+    </div>
+    <section id="country_section">
+      <!--<div class="container">-->
+      <div class="container">
+        <br>
+        <div id="select_hol">
+          <br>
+          <br>
+          <br>
+          <label for="country">Choose Holiday type:</label>
+          <select name="hol_picked" id="hol_picked" onchange="enablebutton()">
+          <!--<select name="hol_picked" id="hol_picked">-->
+            <option value="Skiing">Skiing</option>
+            <option value="Beach">Beach</option>
+            <option value="City">City Tour</option>
+          </select>
+          <button id="hol_btn">Get info</button>
+        </div>
+        <br>
+        <div class="row" id="hol_display">
+
+            <!-- corrected the different device grid whivh fixed mobile landscape view-->
+            <div id="country1" class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <!--<div id="country2" class="col-md-4 col-lg-4">-->
+            </div>
+            <br>
+            <div id="map1"></div>
+            <div id="button1"></div>
+            <br>
+            <!--<div id="country2" class="col-md-4 col-lg-4">-->
+            <div id="country2" class="col-12 col-sm-4 col-md-4 col-lg-4">
+            </div>
+            <br>
+            <div id="map2"></div>
+            <div id="button2"></div>
+            <br>
+            <div id="country3" class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <!--<div id="country3" class="col-md-4 col-lg-4">-->
+            </div>
+            <br>
+            <div id="map3"></div>
+            <div id="button3"></div>
+            <br>
+            <div id="desktop_container">
+              <div id="map_desktop"></div>
+              <div id="book_button"></div>
+            </div>
+            <br>
+            <div id="country4" class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <!--<div id="country4" class="col-md-4 col-lg-4">-->
+            </div>
+            <br>
+            <div id="map4"></div>
+            <div id="button4"></div>
+            <br>
+            <div id="country5" class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <!--<div id="country5" class="col-md-4 col-lg-4">-->
+            </div>
+            <br>
+            <div id="map5"></div>
+            <div id="button5"></div>
+            <br>
+            </div>
+       </div>
+
+  </section>
+  <section id="booking_form">
+    <form action="Booking-history.html" target="_blank">
+       <label for="name">Name:</label>
+       <input type="text" id=name>
+       <br>
+       <label for="resort">Choose Resort:</label>
+       <select name="hol_picked" id="resort">
+       </select>
+       <br>
+       <label for="airlines">Choose Airline:</label>
+       <select name="airline_picked" id="airlines" style="width: 150px;"></select>
+
+       <br>
+       <input type="submit" class="btn btn-success" value="Submit Booking" onclick="passvalues();">
+    </form>
+  </section>
+  <Section>
+  <div id="About">
+    <h2>ABOUT US</h2>
+  </div>
+  <div id="site_design">
+    <p>This my second project which is designed using <span><strong>html,css,bootstrap and javascript</strong></span></p>
+  </div>
+  <div id="external_res">
+    <p>The site also uses external resources like <span><strong>Google Map/Places api</strong></span> and also <span><strong>font awesome</strong></span></p>
+  </div>
+</Section>
+<Section>
+  <footer id="Contact">
+       <div class="footer-content">
+            <h3>Code institute Project2</h3>
+            <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+             <ul class="social_media">
+               <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+               <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+               <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+               <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+         </div>
+         <div class="footer-bottom">
+              <p>copyright &copy;2021 designed by <span>DJM</span></p>
+
+          </div>
+    </footer>
+</Section>
+<script src="holinfo.js"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDS0EOHN0g4ZwhTBVU4UHbcjNpGMDssh0E"></script>
+
+
+
+
+
+
+</body>
+</html>
