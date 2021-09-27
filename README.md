@@ -177,8 +177,8 @@ The live link can be found here:
 
 # Credits
 ## Media
-  * The photos used in this site were obtained from 
-     * The country/city image on the site page are from    
+  * The photos used in this site were obtained from from https://pexels.com
+    
    
 ## Acknowledgements
 
