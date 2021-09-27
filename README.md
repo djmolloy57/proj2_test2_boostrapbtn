@@ -98,7 +98,7 @@ Abril with backup sans-serif for text headings on the home page.
       its url as a link in the head of site Pages.
     
 * Google Font
-    * to make Paragraph Heading on Home page look  clearer I used Abril font-family referencing https://fonts.google.com/ CDN<br>
+    * to make Paragraph Heading on Home page look  clearer I used Roboto font-family referencing https://fonts.google.com/ CDN<br>
       in the style css.
 
 # Testing
